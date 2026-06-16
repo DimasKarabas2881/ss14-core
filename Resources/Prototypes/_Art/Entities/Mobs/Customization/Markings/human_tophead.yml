@@ -1,0 +1,158 @@
+# Cat
+- type: marking
+  id: CatEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_basic_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_basic_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_basic_inner
+
+- type: marking
+  id: CatEarsStubby
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_stubby_inner:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_stubby_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_stubby_inner
+
+- type: marking
+  id: CatEarsCurled
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_curled_inner:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_curled_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_curled_inner
+
+- type: marking
+  id: CatEarsTorn
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_torn_inner:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_torn_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_torn_inner
+
+- type: marking
+  id: CatEarsDroopy
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_droopy_inner:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_droopy_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_droopy_inner
+
+- type: marking
+  id: CatEarsTall
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_tall_inner:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_tall_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_tall_inner
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_tall_fuzz
+
+- type: marking
+  id: CatEarsFuzzy
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_basic_outer
+  - sprite: _Art/Mobs/Customization/human_top.rsi
+    state: ears_fuzzy_inner

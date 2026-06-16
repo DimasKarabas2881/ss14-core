@@ -1,0 +1,300 @@
+# Cat
+- type: marking
+  id: CatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_tip
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_even
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_odd
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+
+- type: marking
+  id: CatTailBow
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+    layers:
+      basic_bow:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_tip
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_even
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_odd
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_bow
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+
+- type: marking
+  id: CatTailBell
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+    layers:
+      basic_bell:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_tip
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_even
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_tail_stripes_odd
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: basic_bell
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+
+- type: marking
+  id: CatTailWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: tail_wag_prime
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: tail_wag_second
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+
+- type: marking
+  id: CatTailFluffy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_cat_tails.rsi
+    state: fluffy_tail
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEarsBasic
+        - CatEarsStubby
+        - CatEarsCurled
+        - CatEarsTorn
+        - CatEarsDroopy
+        - CatEarsTall
+        - CatEarsFuzzy
+
+# Fox
+- type: marking
+  id: FoxTailBig
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_big_wag_prime
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_big_wag_second
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_big_wag_third
+
+# Shark
+- type: marking
+  id: SharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  groupWhitelist: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_shark_tails.rsi
+    state: basic_tail
