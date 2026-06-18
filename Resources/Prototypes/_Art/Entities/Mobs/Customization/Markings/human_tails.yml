@@ -280,6 +280,66 @@
   - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
     state: tail_big_wag_third
 
+- type: marking
+  id: AmericanFoxTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_kit
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_kit_tip
+
+- type: marking
+  id: HoaryFoxTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_hoary_prime
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_hoary_second
+
+- type: marking
+  id: BlanfordsFoxTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_blanfords_prime
+  - sprite: _Art/Mobs/Customization/human_fox_tails.rsi
+    state: tail_blanfords_second
+
 # Shark
 - type: marking
   id: SharkTail

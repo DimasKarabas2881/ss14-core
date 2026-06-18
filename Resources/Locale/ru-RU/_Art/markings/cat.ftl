@@ -3,29 +3,29 @@ marking-CatEarsBasic-ears_basic_outer = Внешняя сторона уха
 marking-CatEarsBasic-ears_basic_inner = Внутренняя сторона уха
 
 marking-CatEarsStubby = Короткие кошачьи ушки
-marking-CatEarsBasic-ears_stubby_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_stubby_inner = Внутренняя сторона уха
+marking-CatEarsStubby-ears_stubby_outer = Внешняя сторона уха
+marking-CatEarsStubby-ears_stubby_inner = Внутренняя сторона уха
 
 marking-CatEarsCurled = Завёрнутые кошачьи ушки
-marking-CatEarsBasic-ears_curled_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_curled_inner = Внутренняя сторона уха
+marking-CatEarsCurled-ears_curled_outer = Внешняя сторона уха
+marking-CatEarsCurled-ears_curled_inner = Внутренняя сторона уха
 
 marking-CatEarsTorn = Порванные кошачьи ушки
-marking-CatEarsBasic-ears_torn_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_torn_inner = Внутренняя сторона уха
+marking-CatEarsTorn-ears_torn_outer = Внешняя сторона уха
+marking-CatEarsTorn-ears_torn_inner = Внутренняя сторона уха
 
-marking-CatEarsDroopy = Упавшие кошачьи ушки
-marking-CatEarsBasic-ears_droopy_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_droopy_inner = Внутренняя сторона уха
+marking-CatEarsDroopy = Поникшие кошачьи ушки
+marking-CatEarsDroopy-ears_droopy_outer = Внешняя сторона уха
+marking-CatEarsDroopy-ears_droopy_inner = Внутренняя сторона уха
 
 marking-CatEarsTall = Длинные кошачьи ушки
-marking-CatEarsBasic-ears_tall_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_tall_inner = Внутренняя сторона уха
-marking-CatEarsBasic-ears_tall_fuzz = Пушок
+marking-CatEarsTall-ears_tall_outer = Внешняя сторона уха
+marking-CatEarsTall-ears_tall_inner = Внутренняя сторона уха
+marking-CatEarsTall-ears_tall_fuzz = Пушок
 
 marking-CatEarsFuzzy = Пушистые кошачьи ушки
-marking-CatEarsBasic-ears_fuzzy_outer = Внешняя сторона уха
-marking-CatEarsBasic-ears_fuzzy_inner = Внутренняя сторона уха (Пушок)
+marking-CatEarsFuzzy-ears_fuzzy_outer = Внешняя сторона уха
+marking-CatEarsFuzzy-ears_fuzzy_inner = Внутренняя сторона уха (Пушок)
 
 
 marking-CatTail-basic_tail_tip = Кончик

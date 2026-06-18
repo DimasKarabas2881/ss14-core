@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Fox Tail: Taken from https://github.com/ParadiseSS13/Paradise edited by Floofers; \n Fox Tail Big: taken from Nyanotrasen at commit https://github.com/Nyanotrasen/Nyanotrasen/commit/3d493907ce374916d8bd0806ad72c8d9f2d70a19 & tail taken from tgstation at commit https://github.com/tgstation/tgstation/commit/e9cc620e9f908e18949031c6e1b5811e3fc5af4e and modified by github:Morb0",
+  "copyright": "Fox Tail: Taken from https://github.com/ParadiseSS13/Paradise edited by Floofers; \n Fox Tail Big: taken from Nyanotrasen at commit https://github.com/Nyanotrasen/Nyanotrasen/commit/3d493907ce374916d8bd0806ad72c8d9f2d70a19 & tail taken from tgstation at commit https://github.com/tgstation/tgstation/commit/e9cc620e9f908e18949031c6e1b5811e3fc5af4e and modified by github:Morb0 \n static tails made by eblewarka (discord iblewarka)",
   "size": {
     "x": 32,
     "y": 32
@@ -66,6 +66,30 @@
                 [ 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15 ],
                 [ 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15 ]
             ]
+        },
+        {
+            "name": "tail_blanfords_prime",
+            "directions": 4
+        },
+        {
+            "name": "tail_blanfords_second",
+            "directions": 4
+        },
+        {
+            "name": "tail_hoary_prime",
+            "directions": 4
+        },
+        {
+            "name": "tail_hoary_second",
+            "directions": 4
+        },
+        {
+            "name": "tail_kit",
+            "directions": 4
+        },
+        {
+            "name": "tail_kit_tip",
+            "directions": 4
         }
     ]
 }

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made by eblewarka (discord iblewarka) and modified by DimasKarabas2881 from github",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ears_deer_inner",
+      "directions": 4
+    },
+    {
+      "name": "ears_deer_outer",
+      "directions": 4
+    },
+    {
+      "name": "ears_lynx_inner",
+      "directions": 4
+    },
+    {
+      "name": "ears_lynx_outer",
+      "directions": 4
+    }
+  ]
+}

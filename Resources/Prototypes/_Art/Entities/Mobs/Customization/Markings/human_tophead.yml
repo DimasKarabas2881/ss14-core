@@ -17,9 +17,9 @@
           !type:SimpleColoring
             color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_basic_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_basic_inner
 
 - type: marking
@@ -40,9 +40,9 @@
           !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_stubby_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_stubby_inner
 
 - type: marking
@@ -63,9 +63,9 @@
           !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_curled_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_curled_inner
 
 - type: marking
@@ -86,9 +86,9 @@
           !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_torn_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_torn_inner
 
 - type: marking
@@ -109,9 +109,9 @@
           !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_droopy_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_droopy_inner
 
 - type: marking
@@ -132,11 +132,11 @@
           !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_tall_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_tall_inner
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_tall_fuzz
 
 - type: marking
@@ -152,7 +152,78 @@
       fallbackTypes:
         - !type:SkinColoring
   sprites:
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_basic_outer
-  - sprite: _Art/Mobs/Customization/human_top.rsi
+  - sprite: _Art/Mobs/Customization/human_cat_ears.rsi
     state: ears_fuzzy_inner
+
+# Fox
+- type: marking
+  id: FoxEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_fox_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_fox_ears.rsi
+    state: ears_fox_outer
+  - sprite: _Art/Mobs/Customization/human_fox_ears.rsi
+    state: ears_fox_inner
+
+# Other
+- type: marking
+  id: DeerEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_deer_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_ears.rsi
+    state: ears_deer_outer
+  - sprite: _Art/Mobs/Customization/human_ears.rsi
+    state: ears_deer_inner
+
+- type: marking
+  id: LynxEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_lynx_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _Art/Mobs/Customization/human_ears.rsi
+    state: ears_lynx_outer
+  - sprite: _Art/Mobs/Customization/human_ears.rsi
+    state: ears_lynx_inner
